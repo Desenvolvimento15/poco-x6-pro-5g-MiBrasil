@@ -48,33 +48,17 @@
   }
 
   :root{
-  --background-silver-dark: #828282;
-  --background-silver-light: #e8e8e8;
-  --background-white-light: #fafafa;
-  --background-white: #ffff;
-  --background-black: #000;
-  --background-silver-clean: #f1f3f4;
-  --background-silver: #59626f;
+  --background-silver: #707070;
   --background-blue: #0C172B;
-  --background-green-light: linear-gradient(203deg, rgba(202,238,206,1) 19%, rgba(120,191,132,1) 78%, rgba(120,191,132,1) 84%);
+  --background-blue-light: #3a5480;
+  --background-yellon: #FFCB05;
 
   --text-white: #fff;
-  --text-preto: #000;
-  --title-blue: #263549;
+  --text-yellon: #FFCB05;
   }
 
-  .txt-branco {color: var(--text-white);}
-  .txt-preto{color: var(--text-preto)}
-
-  .boxcolor-silver{background-color: var(--background-silver);}
-  .boxcolor-silver-dark{background-color: var(--background-silver-dark);}
-  .boxcolor-silver-light{background-color: var(--background-silver-light);}
-  .boxcolor-white{background-color: var(--background-white);}
-  .boxcolor-white-light{background-color: var(--background-white-light);}
-  .boxcolor-black{background-color: var(--background-black);}
-  .boxcolor-silver-clean{background-color: var(--background-silver-clean);}
-  .boxcolor-blue{background-color: var(--background-blue)}
-  .boxcolor-green-gradient{background: var(--background-green-light)}
+  .txt-white {color: var(--text-white);}
+  .txt-yellon {color: var(--text-yellon);}
 
   @import url("https://i02.appmifile.com/i18n/fonts/CamphorPro/vf/index.css");
   @import url("https://i02.appmifile.com/i18n/fonts/CamphorPro/woff2/index.css");
@@ -117,7 +101,6 @@
   position: relative;
   overflow-wrap: break-word;
   }
-
 
   .sub-title {
   text-align: center;
@@ -249,8 +232,6 @@
   margin: 0 auto;
   flex-direction: row;
   }
-
-
 
 
   /********************** Slideshow ********************/
