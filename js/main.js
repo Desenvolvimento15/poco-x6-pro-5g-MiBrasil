@@ -12,4 +12,16 @@ $('.galeria').slick({
   lazyLoad: 'ondemand', controls: false,
    
 });
+
+$('.multiple-items').slick({
+  arrows: false,
+  autoplay: true,
+  autoplaySpeed: 0,
+  speed: 9000,
+  variableWidth: true, 
+  centerMode: false,
+  cssEase: "linear",
+ 
+});
+
 		
