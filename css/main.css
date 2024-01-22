@@ -1,47 +1,3 @@
-.grid-box-poco{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-
-}
-
-.grid-item {
-  position: relative;
-  width: 300px;
-  height: 200px;
-  margin: 10px;
-  overflow: hidden;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.grid-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  text-align: center;
-  background: rgba(0, 0, 0, 0.5);
-}
-
-.overlay h3 {
-  margin: 0;
-}
-
-
-
 
 #slider {
   width: 100%;
@@ -101,7 +57,9 @@
   font-size: 2rem;
   }
 
-
+.video-05{
+  border-radius: 1rem; width: 70rem; margin: 0 auto; display: block
+}
 
  /********************************/
  .container-s101 {
@@ -156,6 +114,54 @@
     width: 100%;
   }
 
+  @font-face {
+    font-family: POCOTech;
+    font-weight: 100;
+    src: url(https://i01.appmifile.com/webfile/globalimg/miv4/font/POCOTech/POCOTech-cool-Hairline.woff)
+    format("woff");
+    }
+    @font-face {
+    font-family: POCOTech;
+    font-weight: 200;
+    src: url(https://i01.appmifile.com/webfile/globalimg/miv4/font/POCOTech/POCOTech-cool-ExtraLight.woff)
+    format("woff");
+    }
+    @font-face {
+    font-family: POCOTech;
+    font-weight: 300;
+    src: url(https://i01.appmifile.com/webfile/globalimg/miv4/font/POCOTech/POCOTech-cool-Light.woff)
+    format("woff");
+    }
+    @font-face {
+    font-family: POCOTech;
+    font-weight: 400;
+    src: url(https://i01.appmifile.com/webfile/globalimg/miv4/font/POCOTech/POCOTech-cool-Regular.woff)
+    format("woff");
+    }
+    @font-face {
+    font-family: POCOTech;
+    font-weight: 500;
+    src: url(https://i01.appmifile.com/webfile/globalimg/miv4/font/POCOTech/POCOTech-cool-Medium.woff)
+    format("woff");
+    }
+    @font-face {
+    font-family: POCOTech;
+    font-weight: 600;
+    src: url(https://i01.appmifile.com/webfile/globalimg/miv4/font/POCOTech/POCOTech-cool-SemiBold.woff)
+    format("woff");
+    }
+    @font-face {
+    font-family: POCOTech;
+    font-weight: 700;
+    src: url(https://i01.appmifile.com/webfile/globalimg/miv4/font/POCOTech/POCOTech-cool-Bold.woff)
+    format("woff");
+    }
+    @font-face {
+    font-family: POCOTech;
+    font-weight: 800;
+    src: url(https://i01.appmifile.com/webfile/globalimg/miv4/font/POCOTech/POCOTech-cool-Book.woff)
+    format("woff");
+    }
   :root{
   --background-silver: #707070;
   --background-blue: #0C172B;
@@ -169,8 +175,7 @@
   .txt-white {color: var(--text-white);}
   .txt-yellon {color: var(--text-yellon);}
 
-  @import url("https://i02.appmifile.com/i18n/fonts/CamphorPro/vf/index.css");
-  @import url("https://i02.appmifile.com/i18n/fonts/CamphorPro/woff2/index.css");
+
 
   .img-fluid {width: 100%; height: auto;}
   .img-fluid-icons{margin: 0 auto; display: block;}
@@ -179,7 +184,7 @@
   text-align: center;
   font-size: 3rem;
   font-weight: 600;
-  font-family: "Camphor Pro", sans-serif;
+  font-family: "POCOTech";
   position: relative;
   overflow-wrap: break-word;
   }
@@ -188,16 +193,16 @@
   text-align: center;
   font-size: 2rem;
   font-weight: 300;
-  font-family: "Camphor Pro", sans-serif;
+  font-family: "POCOTech", sans-serif;
   position: relative;
   overflow-wrap: break-word;
   }
 
   .subtitle-left {
-  text-align: center;
+  text-align: left;
   font-size: 2rem;
   font-weight: 600;
-  font-family: "Camphor Pro", sans-serif;
+  font-family: "POCOTech";
   position: relative;
   overflow-wrap: break-word;
   }
@@ -206,33 +211,18 @@
     text-align: center;
     font-size: 2rem;
     font-weight: 600;
-    font-family: "Camphor Pro", sans-serif;
+    font-family: "POCOTech";
     position: relative;
     overflow-wrap: break-word;
     }
 
-  .subtitle-mini {
-  text-align: center;
-  font-size: 1.5rem;
-  font-weight: 600;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  overflow-wrap: break-word;
-  }
 
-  .sub-title {
-  text-align: center;
-  font-size: 1.7rem;
-  font-weight: 300;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  overflow-wrap: break-word;
-  }
+
 
   .p-left {
   font-size: 1.1rem;
   text-align: left;
-  font-family: "Camphor Pro", sans-serif;
+  font-family: "POCOTech";
   position: relative;
   line-height: 1.3;
   overflow-wrap: break-word;
@@ -241,7 +231,7 @@
   .p-center{
     font-size: 1.1rem;
     text-align: center;
-    font-family: "Camphor Pro", sans-serif;
+    font-family: "POCOTech";
     position: relative;
     line-height: 1.3;
     overflow-wrap: break-word;
@@ -251,78 +241,13 @@
   text-align: left;
   font-size: 1rem;
   padding: 5rem;
-  font-family: "Camphor Pro", sans-serif;
+  font-family: "POCOTech";
   }
 
   .img-grid-mob{display: none;}
   .img-grid-desk{display: block;}
 
 
-  .btn-green {
-  background-image: linear-gradient(to right, #78BF84 5%, #D8F4D9 95%);
-  padding: 10px ;
-  text-align: center;
-  color: white;
-  box-shadow: 0 0 25px #eee;
-  border-radius: 47px;
-  display: block;
-  border: none;
-  margin: 0 auto;
-  margin-bottom: 1rem;
-  width: 25rem;
-  font-size: 2.3rem;
-  font-weight: 700;
-  }
-
-  .icons-title {
-  font-size: 1.3rem;
-  font-family: "Camphor Pro", sans-serif;
-  font-weight: 700;
-  color: var(--text-preto);
-  line-height: 1.2;
-  }
-
-  .icons-title-mp {
-  font-size: 2rem;
-  font-family: "Camphor Pro", sans-serif;
-  font-weight: 700;
-  color: var(--text-preto);
-  line-height: 2;
-  }
-
-  .icons-tex {
-  font-size: 1rem;
-  font-family: "Camphor Pro", sans-serif;
-
-  font-weight: 400;
-  line-height: 1.2;
-  }
-
-  .icons-size {
-  width: 4rem;
-  margin: 1rem;
-  }
-
-  .icons-size-mp{
-  width: 6.5rem;
-  margin: 2rem;
-  }
-
-  .icons-img-text {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
-  }
-
-  .icons-img-text-octa{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
-  line-height: 3;
-
-  }
   /************************ Grid ***********************/
 
   .grid-desk-xiaomi {
@@ -424,17 +349,26 @@
   .spacing{padding: 3rem;}
   .spacing-galery{padding: 12rem;}
 
+  .img-desk{display: block;}
+  .img-mob{display: none;}
+
   /************************* Mobile ***********************/
 
   @media only screen and (max-width: 920px) {
+
+    .video-05{
+      border-radius: 1rem; width: 100%; margin: 0 auto; display: block
+    }
 
   .img-fluid-icons {width: 100%; height: auto;}
 
   .row-s101 {padding: 0 0px;}
   .spacing{padding: 1rem;}
   .spacing-galery{padding: 1rem;}
-  .img-grid-desk{display: none;}
-  .img-grid-mob{display: block;}
+  
+  .img-mob{display: block;}
+  .img-desk{display: none;}
+
 
   .col-md-12-s101 {
   -ms-flex: 0 0 100%;
@@ -444,104 +378,57 @@
 
   /********************** Grind Mobile *******************/
 
-  .grid-desk-xiaomi{ 
-  width: 70%;
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  flex-wrap: nowrap;
-  }
 
-  .grid-icons-xiaomi {
-  gap: 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 13rem;
-  margin: 0 auto;
-  align-items: flex-start;
-  }
-
-  .grid-xiaomi{ 
-  width: 74%;
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  flex-wrap: nowrap;
-  }
-
-  .grid-xiaomi-retrato {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  margin: 0 auto;
-  }
 
 
 
   /********************************************************/
 
-  .title-xioami{
-  text-align: center;
-  font-size: 2.2rem;
-  font-weight: 600;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  overflow-wrap: break-word;
-  }
-
   .subtitle-xioami{
   text-align: center;
   font-size: 1.3rem;
   font-weight: 300;
-  font-family: "Camphor Pro", sans-serif;
+  font-family: "POCOTech";
   position: relative;
   overflow-wrap: break-word;
   }
-  .sub-title {
-  text-align: center;
+  .subtitle-left {
+  text-align: left;
   font-size: 1.2rem;
-  font-weight: 350;
-  font-family: "Camphor Pro", sans-serif;
+  font-weight: 400;
+  font-family: "POCOTech";
   position: relative;
   overflow-wrap: break-word;
   }
 
+  .subtitle-center {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: "Camphor Pro", sans-serif;
+    position: relative;
+    overflow-wrap: break-word;
+ }
 
-  .subtitle {
-  text-align: center;
-  font-size: 1.6rem;
-  font-weight: 700;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  margin-bottom: 0.5rem;
-  }
+    .p-left {
+      font-size: 0.8rem;
+      text-align: left;
+      font-family: "Camphor Pro", sans-serif;
+      position: relative;
+      line-height: 1.3rem;
+      overflow-wrap: break-word;
+      }
 
-  .p-left {
-  font-size: 0.99rem;
-  text-align: center;
-  padding: 1rem;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  overflow-wrap: break-word;
-  }
 
-  .icons-text {
-  font-size: 1rem;
-  text-align: center;
-  font-family: "Camphor Pro", sans-serif;
-  position: relative;
-  font-weight: 500;
-  line-height: 1.2;
-  margin-top: 1rem;
-  }
-
-  .icons-img{
-  width: 6rem;
-  }
+      .p-center{
+        font-size: 0.8rem;
+        text-align: center;
+        font-family: "Camphor Pro", sans-serif;
+        position: relative;
+        line-height: 1.3;
+        overflow-wrap: break-word;
+        }
+    
 
   .p-notas {
   text-align: left;
@@ -549,21 +436,61 @@
   padding: 0.5rem;
   }
 
-  .btn-green {
-  background-image: linear-gradient(to right, #78BF84 5%, #D8F4D9 95%);
-  padding: 5px ;
-  text-align: center;
-  color: white;
-  box-shadow: 0 0 25px #eee;
-  border-radius: 47px;
-  display: block;
-  border: none;
-  margin: 0 auto;
-  margin-bottom: 1rem;
-  width: 15rem;
-  font-size: 1.5rem;
-  font-weight: 700;
-  }
+
+
+  #slider {
+    width: 100%;
+    overflow: hidden;
+    }
+    
+    #slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    }
+    
+    .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    }
+    
+    .slide img {
+    width: 100%;
+    height: auto;
+    }
+    
+    #dots-container {
+    text-align: center;
+    margin-top: 20px;
+    }
+    
+    .dot {
+    height: 20px;
+    width: 20px;
+    margin: 0 5px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    }
+    
+    .dot:nth-child(1) {
+    background-color: #FFCB05; /* Cor do dot para o Item 01 */
+    }
+    
+    .dot:nth-child(2) {
+    background-color: #ffd /* Cor do dot para o Item 02 */
+    }
+    
+    .dot:nth-child(3) {
+    background-color: #1b1b1b; /* Cor do dot para o Item 03 */
+    }
+    
+    .dot.active {
+    border: 2px solid #FFCB05;;
+    border-radius: 30px; /* Cor do dot ativo */
+    }
+    
+   
+
 
 
   }
