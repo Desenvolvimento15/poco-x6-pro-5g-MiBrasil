@@ -244,8 +244,7 @@
   font-family: "POCOTech";
   }
 
-  .img-grid-mob{display: none;}
-  .img-grid-desk{display: block;}
+
 
 
   /************************ Grid ***********************/
@@ -356,18 +355,16 @@
 
   @media only screen and (max-width: 920px) {
 
-    .video-05{
-      border-radius: 1rem; width: 100%; margin: 0 auto; display: block
-    }
+    .video-05{border-radius: 1rem; width: 100%; margin: 0 auto; display: block}
 
   .img-fluid-icons {width: 100%; height: auto;}
 
   .row-s101 {padding: 0 0px;}
   .spacing{padding: 1rem;}
   .spacing-galery{padding: 1rem;}
-  
-  .img-mob{display: block;}
-  .img-desk{display: none;}
+  .img-desk{display: none}
+  .img-mob{display: block}
+ 
 
 
   .col-md-12-s101 {
