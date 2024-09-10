@@ -348,8 +348,8 @@
   .spacing{padding: 3rem;}
   .spacing-galery{padding: 12rem;}
 
-  .img-desk{display: block;}
-  .img-mob{display: none;}
+  .img-desk{display: none;}
+  .img-mob{display: block;}
 
   /************************* Mobile ***********************/
 
